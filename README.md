@@ -20,5 +20,6 @@ optional arguments:
 Sometimes you want to make backups of a directory tree which might also 
 contain "output" folders with huge amounts of data that should _not_ be
 backed up.  `copydir` will make the backup but skip those folders. This 
-is quite easy to do on a POSIX-like system, but `copydir` also works on
-Windows, which is where it was originally created.
+kind of tasks is quite easy to do on a POSIX-like system, but `copydir` 
+also works on Windows without change, which is where it was originally 
+created.
